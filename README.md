@@ -19,6 +19,8 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 ### Project Introduction
   At present, the accuracy of indoor positioning is insufficient in many technologies. However, UWB has great advantages in positioning accuracy. So we chose UWB as the positioning technology for our project. We want to use UWB to locate and then realize some control commands through location recognition. Now most of the control commands indoors are realized through voice recognition or image recognition. 
   Our project does not require voice or image recognition, UWB can perform positioning to recognize the direction we are pointing. Then the device in that direction will be controlled such as turning on and off. If the project goes well, we can add some features such as gesture control based on direction recognition.
+  
+### Prior works
 
 ### Implementation of project
   Our project basically has two phases. The first phase is to achieve our basic goals. We will use Decawave MDEK1001 Development Kit as our main development tool. The kit includes 12 RTLS units base on DWM1001 Development board, embedded location stack (binary) and gateway firmware.
@@ -31,3 +33,11 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 ### Timeline:
 - From the fifth week to the eighth week, we hope to be able to program the uwb device and complete the first phase when everything goes well.
 - Starting from the eighth week, we will continue to improve the first phase, and at the same time we will start the second phase of development.
+
+### Strengths and weakness, and future directions
+
+### Contributions of each team member
+
+### Final Report, PPT, Demo
+
+### References
