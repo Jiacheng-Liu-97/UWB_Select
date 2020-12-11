@@ -7,7 +7,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 
 <!---
 ### Link:
-  [link to test.md](md_files/test.md)
+  [link to test.md](md_pages/test.md)
   <img src="General Pics/MDEK1001_600x430.jpg" class="center" alt="UWB: Decaewave MDEK1001 Evaluation Kit" width="50%" height="50%">
 --->
 
