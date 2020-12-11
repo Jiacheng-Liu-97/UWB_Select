@@ -12,7 +12,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
   At present, with the development of technology, indoor positioning scenes are becoming larger and more complex, and the demand for positioning and navigation in large supermarkets, general hospitals, airports, parking lots and other places is gradually increasing. There are many wireless positioning technologies and solutions. Commonly used positioning technologies include infrared, ultrasonic, and radio frequency signals, but they are not suitable for indoor positioning.
   There are currently different indoor positioning technologies, such as WiFi positioning technology, Bluetooth, RFID (Radio-frequency identification) and UWB (Ultra Wide-band). 
 
----
+------------
 ### Motivation of Using UWB Indoor Positioning Technology
   WiFi, RFID and Bluetooth indoor positioning technologies have their own advantages, but at the same time they also have some limitations and disadvantages. 
   As for the WiFi, it is easily interfered by other signals. This affects the positioning accuracy, the accuracy is not high, and the energy consumption of the positioner is high.  RFID does not have communication capabilities and has poor anti-interference capabilities, which is not easy to integrate into other systems, and the user's security and privacy protection and international standardization are not perfect.Under complex space environments, the stability of the Bluetooth system is slightly worse than other technologies, and it is greatly interfered by noise signals. Also, the price of Bluetooth devices and equipment is relatively expensive.
@@ -20,7 +20,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
   UWB does not need to use the carrier wave in the traditional communication system, but transmits and receives extremely narrow pulses with nanoseconds or less to transmit data, so it has a bandwidth of GHz order. Because the ultra-wideband positioning technology has the advantages of strong penetration, good anti-multipath effect, high security, low system complexity, and ability to provide precise positioning accuracy.
   Technically, UWB indoor positioning is undoubtedly one of the most ideal industrial positioning technologies, whether it is analyzed from the perspective of positioning accuracy, safety, anti-interference, and power consumption.
 
----
+--------------
 ### Project Introduction
   At present, the accuracy of indoor positioning is insufficient in many technologies. However, UWB has great advantages in positioning accuracy. So we chose UWB as the positioning technology for our project. We want to use UWB to locate and then realize some control commands through location recognition. Now most of the control commands indoors are realized through voice recognition or image recognition. 
   Our project does not require voice or image recognition, UWB can perform positioning to recognize the direction we are pointing. Then the device in that direction will be controlled such as turning on and off. If the project goes well, we can add some features such as gesture control based on direction recognition.
