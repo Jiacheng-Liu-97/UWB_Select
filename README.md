@@ -75,7 +75,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 
 --------------------------------------------------------------------------------------------
 ### Strengths and weakness, and future directions
-
+  
 --------------------------------------------------------------------------------------------
 ### System elaboration
   Please click and view:
@@ -83,6 +83,9 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 
 --------------------------------------------------------------------------------------------
 ### Contributions of each team member
+  - Jiacheng Liu:
+
+  - Yibo Wang: 
 
 --------------------------------------------------------------------------------------------
 ### Final Report, PPT, Demo
