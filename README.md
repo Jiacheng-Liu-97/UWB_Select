@@ -6,7 +6,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 <img src="General Pics/UWB.jpg" class="img-responsive" alt="">
 
 ### Link:
-  [link to test.md](test.md)
+  [link to test.md](md_files/test.md)
 
 ### Background:
   At present, with the development of technology, indoor positioning scenes are becoming larger and more complex, and the demand for positioning and navigation in large supermarkets, general hospitals, airports, parking lots and other places is gradually increasing. There are many wireless positioning technologies and solutions. Commonly used positioning technologies include infrared, ultrasonic, and radio frequency signals, but they are not suitable for indoor positioning.
