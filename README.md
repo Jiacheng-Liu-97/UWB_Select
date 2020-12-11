@@ -27,9 +27,12 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 
 -----------------------------------------------------------------------------------------------
 ### Prior works
-  1. [Recent trends and advances in UWB positioning] (https://ieeexplore.ieee.org/abstract/document/5307895)
-  2. <a href="https://ieeexplore.ieee.org/abstract/document/5307895" target="_blank">Recent trends and advances in UWB positioning</a>
-  3. 
+  Direct works: 
+
+  Relavant works:
+    1. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/5307895" >Recent trends and advances in UWB positioning</a>
+    2. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/5288724?casa_token=NWJVDTZtLEYAAAAA:u0bZ2adB4zLXbtTXZWLx7NVZWMv8oI2souPsLrFrAH5uT4O-Qa4OzrW8iNKWowLi33HD9fi_AA" >Tightly coupled UWB/IMU pose estimation</a>
+    3. 
 
 --------------------------------------------------------------------------------------------
 ### Implementation of project
