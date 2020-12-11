@@ -24,7 +24,10 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
   Our project does not require voice or image recognition, UWB can perform positioning to recognize the direction we are pointing. Then the device in that direction will be controlled such as turning on and off. If the project goes well, we can add some features such as gesture control based on direction recognition.
   
 ### Prior works
-
+  1. 
+  2. 
+  3. 
+  
 ### Implementation of project
   Our project basically has two phases. The first phase is to achieve our basic goals. We will use Decawave MDEK1001 Development Kit as our main development tool. The kit includes 12 RTLS units base on DWM1001 Development board, embedded location stack (binary) and gateway firmware.
   
