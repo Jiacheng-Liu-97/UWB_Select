@@ -5,8 +5,10 @@ Contribute: Jiacheng Liu, Yibo Wang\
 UCLA M202A Project Implementing UWB wireless indoor position: select &amp; control IOT Devices
 <img src="General Pics/UWB.jpg" class="img-responsive" alt="">
 
+<!---
 ### Link:
   [link to test.md](md_files/test.md)
+--->
 
 ### Background:
   At present, with the development of technology, indoor positioning scenes are becoming larger and more complex, and the demand for positioning and navigation in large supermarkets, general hospitals, airports, parking lots and other places is gradually increasing. There are many wireless positioning technologies and solutions. Commonly used positioning technologies include infrared, ultrasonic, and radio frequency signals, but they are not suitable for indoor positioning.
@@ -23,7 +25,10 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 --------------------------------------------------------------------------------------------
 ### Project Introduction
   At present, the accuracy of indoor positioning is insufficient in many technologies. However, UWB has great advantages in positioning accuracy. So we chose UWB as the positioning technology for our project. We want to use UWB to locate and then realize some control commands through location recognition. Now most of the control commands indoors are realized through voice recognition or image recognition. 
-  Our project does not require voice or image recognition, UWB can perform positioning to recognize the direction we are pointing. Then the device in that direction will be controlled such as turning on and off. If the project goes well, we can add some features such as gesture control based on direction recognition.
+  
+  At the same time, there's a problem when controlling IoT stuff: if we can recognize the pointing action, then that will sufficiently increase the robustness of controls. Also, we can combine it with voice or gesture commands to make things smarter and easier. 
+  
+  This project will implement the spatial information from the UWB system and combine them with the IMU sensors on Arduino BLE Sense 33, to achieve pointing action detection, gesture commands. This will enable the device selection & controls.
 
 -----------------------------------------------------------------------------------------------
 ### Prior works
