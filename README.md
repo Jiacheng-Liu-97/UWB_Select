@@ -47,12 +47,12 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 ### Implementation of project
   Our project basically has two phases. The first phase is to achieve our basic goals. We will use Decawave MDEK1001 Development Kit as our main development tool. The kit includes 12 RTLS units base on DWM1001 Development board, embedded location stack (binary) and gateway firmware.
   
-  <div style="text-align:center">
+  <p align="center">
     <figure>
       <img src="General Pics/MDEK1001_600x430.jpg" alt="" width="50%" height="50%" />
       <figcaption>UWB: Decaewave MDEK1001 Evaluation Kit</figcaption>
   </figure>
-</div>
+</p>
 
   We can use some of the RTLS units to be anchors and use 1 RTLS unit to be a tag. By using the tag twice to obtain the location of the two points, the two points will form a vector, which will be recognized by uwb and then find the corresponding device to perform the control command. For the first phase, we only want to turn on/turn off of the devices in different position.
   If we successfully complete the first phase, we will start the second phase, which is to use the sensor in the MDEK1001 kit or use the sensor of Arduino Nano to implement gesture control. For example,raising your hand in that direction turns on the device in that direction, and lowering your hand in that direction turns off the device in that direction.
