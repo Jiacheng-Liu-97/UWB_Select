@@ -28,7 +28,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 -----------------------------------------------------------------------------------------------
 ### Prior works
   1. [Recent trends and advances in UWB positioning] (https://ieeexplore.ieee.org/abstract/document/5307895)
-  2. 
+  2. <a href="https://ieeexplore.ieee.org/abstract/document/5307895" target="_blank">Recent trends and advances in UWB positioning</a>
   3. 
 
 --------------------------------------------------------------------------------------------
