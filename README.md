@@ -78,6 +78,8 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 
 --------------------------------------------------------------------------------------------
 ### System elaboration
+  Please click and view:
+  [System elaboration](md_pages/system_elaboration.md)
 
 --------------------------------------------------------------------------------------------
 ### Contributions of each team member
