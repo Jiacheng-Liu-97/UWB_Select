@@ -1,7 +1,7 @@
-[< Back to main page](README.md)
+[< Back to main page](../README.md)
 
 # System Elaboration
 
 #### ECE M202A Project: UWB Indoor Positioning - Select & Control
-Contribute: Jiacheng Liu, Yibo Wang\
+Contribute: Jiacheng Liu, Yibo Wang
 
