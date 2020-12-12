@@ -27,7 +27,7 @@ Second, the depth camera can also serve as a measurement tool, since it also abl
 --------------------------------------------------------------------------------------------
 ### System Elaboration 3: Pointing system with trace tracking for motion radius calculation
 
-
+Tracing the position of the UWB tag can be useful, the system can store the data up to a certain period of time in history, which can be analyzed if a pointing action is performed. The system can go back to a certain limit of time and figure out the direction that the user trying to point at without any help from other sensors. Base on this we can train a neural network so that the "server/controller" can estimate the action and the rotation of the arm, shoulder, and body. Then we can recognize if the pointing is a whole arm lift or a forearm pointing. And based on the daily use, we can improve the system's accuracy/robustness by learning the body behavior of the particular user. 
 
 --------------------------------------------------------------------------------------------
 ### System Elaboration 4: UWB robustness improvement with IMU sensor fusion
