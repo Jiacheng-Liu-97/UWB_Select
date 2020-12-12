@@ -18,9 +18,16 @@ Also, including the voice recognition command could also increase the usability 
 
 --------------------------------------------------------------------------------------------
 ### System Elaboration 2: Improve UWB pointing with depth camera embedded
+We also think about adding cameras to our system, which will serve as both uses. 
+
+One is detecting the pointing action more accurately, maybe using a machine learning algorithm, we will be able to detect if the user is making a pointing action or not, this will act as a double confirmation of the action detection and making sure the user is pointing. An idea of action detection using a depth camera can be found: <a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US20130077820A1/en" >Machine learning gesture detection</a>.
+
+Second, the depth camera can also serve as a measurement tool, since it also able to measure some spatial information, so we are thinking maybe the camera can serve as supportive data for the UWB's positioning ability and increase the accuracy of the indoor positioning function. Also, one more thing is that we can use the depth to measure the relative length of the arm and the body, so we can plot a vector in the 3D space to make the pointing action more real and visualabe. 
 
 --------------------------------------------------------------------------------------------
 ### System Elaboration 3: Pointing system with trace tracking for motion radius calculation
+
+
 
 --------------------------------------------------------------------------------------------
 ### System Elaboration 4: UWB robustness improvement with IMU sensor fusion
