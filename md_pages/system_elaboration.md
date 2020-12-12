@@ -31,8 +31,13 @@ Second, the depth camera can also serve as a measurement tool, since it also abl
 
 --------------------------------------------------------------------------------------------
 ### System Elaboration 4: UWB robustness improvement with IMU sensor fusion
+In this project, we already implement the idea of fusion into the handling of the IMU sensor. The next question is maybe based on all the different types of fusion methods we covered in lectures, there may be better performance methods out there. So, the next step, if time is permissible,  can spend some time improving the fusion algorithm and to achieve better robustness of the overall performance.
 
 --------------------------------------------------------------------------------------------
-### System Elaboration 5: UWB poinitng assist wireless data transmission
+### System Elaboration 5: UWB poinitng assist wireless data transmission (Application)
+Another area that UWB technology that is powerful is data transmission. Ultra-Wide Band tends to operate at very low energy and support many users at high data rates <a target="_blank" rel="noopener noreferrer" href="https://dspace.mit.edu/bitstream/handle/1721.1/66898/Win-2009-History%20and%20applications%20of%20UWB.pdf?sequence=1&isAllowed=y" >History and Applications
+of UWB</a>. Also since the wide bandwidth and low power feature, the UWB's communication tends to be harder to detect <a target="_blank" rel="noopener noreferrer" href="https://www.itu.int/dms_pubrec/itu-r/rec/sm/R-REC-SM.1755-0-200605-I!!PDF-E.pdf" >Characteristics of ultra-wideband technology </a>. 
+
+These features open another area of our project's application. Based on our current system, we can design another data transfer system based on the pointing system. In this is achieved, we can point to two or even multiple devices to select them and start data transfer through UWB network without going through the manual pair up process in Wifi/Bluetooth devices. Removing the manual pair up process that could be a little different base on devices, we just point to the devices and say "transfer the files", the system will recognize what are the devices I'm pointing.  Then set up and perform the data transmission with all the benefits mentioned above. Also, the voice command can serve as the authentication based on the voice recognition technology to make the system more secure. 
 
 --------------------------------------------------------------------------------------------
