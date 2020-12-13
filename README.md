@@ -75,7 +75,15 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 
 --------------------------------------------------------------------------------------------
 ### Strengths and weakness, and future directions
-  
+**Strength:**
+  1. **Accuracy:** The accuracy of UWB can reach the centimeter level, which is required for indoor positioning.
+  2. **Low Power:** UWB is not only a positioning system, it also has the characteristics of low power and low latency. This is an excellent feature for embedded systems.
+  3. **Multifunctional:** While realizing indoor positioning, we also added the function of gesture control based on the IMU sensor. This will make this device more robust and useful when we are indoors.
+
+Weakness:
+We can only use two anchors at present due to potential serial communication problems between Tag and Arduino. This will make us temporarily not using the z-axis for calculations.
+The firmware of the UWB module itself has not been modified. After the modification, there will be more possibilities.
+
 --------------------------------------------------------------------------------------------
 ### System elaboration
   Please click and view:
