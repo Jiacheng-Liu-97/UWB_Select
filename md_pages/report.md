@@ -31,7 +31,7 @@ Contribute: Jiacheng Liu, Yibo Wang
    </p>
 
   #### Technical Approach:
-  1. **Configure the Anchors and Tag in terminal**
+  1. **Configure the Anchors and Tag in terminal**/
       Find the name of the serial port and then use the screen to connect to the serial
       ```
             ls /dev/cu.*
