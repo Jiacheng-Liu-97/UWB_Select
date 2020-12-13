@@ -64,8 +64,59 @@ Contribute: Jiacheng Liu, Yibo Wang
       DataStr.toCharArray(DataBuffer, MAX_STR_LEN);  
       Data_Decode(DataBuffer,delim,&Header,&Num,&ID1,&Addr1,&x1,&y,&z1,&Dis1,&ID2,&Addr2,&x2,&y2,&z2,&Dis2);
       ```
+  3. **Using PWM to control the LEDs**<br />
+      If the Tag is moving from Anchor0 to Anchor1, the left LED will turn on, and vice versa. The two LEDs on the left and right reflect the moving direction of the tag, which is our selection.
+      
+      The connection between Tag, Arduino, and LEDs. When we want to choose a direction, we only need to move the entire connected device to the left or right, the LED light will turn on or off according to the direction of movement.
 
 --------------------------------------------------------------------------------------------
+### Part II:  Using a Built-in IMU Sensor of Arduino to Do the Gesture Control.
+
+**Implementation procedures:**
+  1. Finding the IMU and Data fusion libraries and including them in the Arduino.
+  2. Implementing the MadgwickAHRS algorithm (Data fusion) to get the orientation of the based on accelerometer and gyroscope readings.
+  3. Through turning the Arduino, the Roll will change, and this will change the brightness of the LEDs after we select a direction. 
+
+**The way to get the Pitch, Roll, and Yaw**
+      <p align="center">
+        <img src="pics/IMU_fusion.png" alt="IMU_fusion" width="100%" height="100%" />
+      </p>
+
+#### Technical Approach:
+  1. **Including the required libraries**<br />
+
+      ```
+      #include <MadgwickAHRS.h>
+      #include <Arduino_LSM9DS1.h> 
+      ```
+
+  2. **Instantiating a filter and do the data fusion by getting the values of Accelerator and Gyroscope.**<br />
+
+      ```
+      Madgwick filter;
+
+      if (IMU.accelerationAvailable()) 
+      {
+            IMU.readAcceleration(accel_x, accel_y, accel_z);
+      }
+      if (IMU.gyroscopeAvailable()) 
+      {
+            IMU.readGyroscope(gyro_x, gyro_y, gyro_z);
+      }
+      filter.updateIMU(gyro_x, gyro_y, gyro_z, accel_x,  accel_y, accel_z);
+      roll = filter.getRoll(); 
+      pitch = filter.getPitch();  
+      yaw = filter.getYaw();
+      ```
+  3. **Controlling the brightness of LEDs by changing the Roll of Arduino.**<br />
+
+      ```
+      analogWrite(LED_AN0, 30+roll/2);
+      analogWrite(LED_AN1, 30+roll/2); 
+      ```
+      
+
+
 
 
 
