@@ -33,9 +33,10 @@ Contribute: Jiacheng Liu, Yibo Wang
   #### Technical Approach:
   1. **Configure the Anchors and Tag in terminal** <br />
       Find the name of the serial port and then use the screen to connect to the serial
+
       ```
-            ls /dev/cu.*
-            screen /dev/tty.usbmodem14331 115200
+      ls /dev/cu.*
+      screen /dev/tty.usbmodem14331 115200
       ```
       Then using the Decawave API firmware API Guide: <a target="_blank" rel="noopener noreferrer" href="https://www.decawave.com/sites/default/files/dwm1001-api-guide.pdf" >DWM1001 FIRMWARE API GUIDE</a> to find the commands to configure the Anchors and Tag.
 
