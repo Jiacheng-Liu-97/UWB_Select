@@ -40,6 +40,20 @@ Contribute: Jiacheng Liu, Yibo Wang
       ```
       Then using the Decawave API firmware API Guide: <a target="_blank" rel="noopener noreferrer" href="https://www.decawave.com/sites/default/files/dwm1001-api-guide.pdf" >DWM1001 FIRMWARE API GUIDE</a> to find the commands to configure the Anchors and Tag.
 
+  2. **Using Arduino to control the Tag to get the data**<br />
+      Press Enter twice to get into the shell mode and enter ‘lec’ to get the position data.
+      
+      ```
+      Serial1.write(0x0D); // send the first "Enter" to get into SHELL Mode
+      Serial1.write(0x0D); // send the second "Enter" to get into SHELL Mode
+      
+      Serial1.write(0x6C); //send "l"
+      Serial1.write(0x65); //send "e"
+      Serial1.write(0x63); //send "c"
+      Serial1.write(0x0D); //send "Enter"
+      ```
+      Process the acquired position data and separate the string of data to obtain the distance between the two Anchors and the Tag.
+
 --------------------------------------------------------------------------------------------
 
 
