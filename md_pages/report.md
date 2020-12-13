@@ -15,6 +15,36 @@ Contribute: Jiacheng Liu, Yibo Wang
    <p align="center">
     <img src="pics/system_overview.png" alt="System_Overview" width="100%" height="100%" />
   </p>
+  
+  Our project is mainly divided into two parts. The first part is the implementation of  UART communication between Tag and Arudino. And the second part is using a built-in IMU sensor of Arduino to do the gesture control.
+
+--------------------------------------------------------------------------------------------
+### Part I: UART Communication between Tag and Arduino
+   **Implementation procedures:**
+   1. Doing the configuration of Tag and Anchors using Terminal/Andriod app.
+   2. Using terminal with specific commands to observe the data format.
+   3. Coding on Arduino to obtain and process data, and then use the processed data to do some calculations to achieve our selection function.
+   4. Using a breadboard to build a simple circuit to visualize the results.
+   **Schematic diagram:**
+   <p align="center">
+      <img src="pics/serial_communication.png" alt="Serial Communication" width="100%" height="100%" />
+   </p>
+
+  #### Technical Approach:
+  1. Configure the Anchors and Tag in terminal
+  
+  Find the name of the serial port and then use the screen to connect to the serial
+
+  ```
+  ls /dev/cu.*
+  screen /dev/tty.usbmodem14331 115200
+  ```
+
+  Then using the Decawave API firmware API Guide to find the commands to configure the Anchors and Tag
+
+--------------------------------------------------------------------------------------------
+
+
 
 
 [< Back to main page](../README.md)
