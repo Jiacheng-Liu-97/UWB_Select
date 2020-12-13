@@ -56,7 +56,7 @@ Contribute: Jiacheng Liu, Yibo Wang
 
       Data format:
       <p align="center">
-        <img src="pics/uwb_reading.png" alt="UWB Reading" width="100%" height="100%" />
+        <img src="pics/uwb_reading.png" alt="UWB Reading" width="60%" height="60%" />
       </p>
 
       ```
@@ -64,7 +64,7 @@ Contribute: Jiacheng Liu, Yibo Wang
       DataStr.toCharArray(DataBuffer, MAX_STR_LEN);  
       Data_Decode(DataBuffer,delim,&Header,&Num,&ID1,&Addr1,&x1,&y,&z1,&Dis1,&ID2,&Addr2,&x2,&y2,&z2,&Dis2);
       ```
-      
+
 --------------------------------------------------------------------------------------------
 
 
