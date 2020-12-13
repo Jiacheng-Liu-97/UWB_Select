@@ -92,17 +92,18 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 --------------------------------------------------------------------------------------------
 ### Contributions of each team member
   - Jiacheng Liu:
-     - Create a Github page and add everything to the Github page.
+     - Github repo and everything related the Github page.
      - Figure out how to set up and configure the UWB system. 
-     - Write the project proposal and part of the final report
-     - add more
+     - UWB-Arduino Communication
+     - System and Algorithm Elabration
+     - Report and Demo
 
   - Yibo Wang: 
-     - Coding the Arduino to integrate the overall system.
-     - Figure out how to use the built-in IMU sensor of Arduino to do the gesture control.
-     - Figure out the communication between Tag and Arduino.
-     - Write the midterm presentation and part of the final report.
-     - add more
+     - Exploring the uwb data acquiring method
+     - Coding the Arduino to integrate the overall system
+     - Figure out how to acquire the built-in IMU sensor's data for gesture control
+     - Implement the IMU sensor fusion function
+     - Report and Demo
 
 --------------------------------------------------------------------------------------------
 ### Final Report, PPT, Demo
