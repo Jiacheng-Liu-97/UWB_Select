@@ -77,7 +77,7 @@ Contribute: Jiacheng Liu, Yibo Wang
   2. Implementing the MadgwickAHRS algorithm (Data fusion) to get the orientation of the based on accelerometer and gyroscope readings.
   3. Through turning the Arduino, the Roll will change, and this will change the brightness of the LEDs after we select a direction. 
 
-**The way to get the Pitch, Roll, and Yaw**
+**The way to get the Pitch, Roll, and Yaw**<br />
       <p align="center">
         <img src="pics/IMU_fusion.png" alt="IMU_fusion" width="100%" height="100%" />
       </p>
