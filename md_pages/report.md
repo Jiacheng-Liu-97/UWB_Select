@@ -54,6 +54,17 @@ Contribute: Jiacheng Liu, Yibo Wang
       ```
       Process the acquired position data and separate the string of data to obtain the distance between the two Anchors and the Tag.
 
+      Data format:
+      <p align="center">
+        <img src="pics/uwb_reading.png" alt="UWB Reading" width="100%" height="100%" />
+      </p>
+
+      ```
+      DataStr = Serial1.readStringUntil(0x0D);
+      DataStr.toCharArray(DataBuffer, MAX_STR_LEN);  
+      Data_Decode(DataBuffer,delim,&Header,&Num,&ID1,&Addr1,&x1,&y,&z1,&Dis1,&ID2,&Addr2,&x2,&y2,&z2,&Dis2);
+      ```
+      
 --------------------------------------------------------------------------------------------
 
 
