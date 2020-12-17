@@ -38,13 +38,20 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 ### Prior works
   Direct works: 
   1. <a target="_blank" rel="noopener noreferrer" href="https://amir-omidfar.github.io/m202Fall19/index.html" >DirectMe</a>
+  2. <a target="_blank" rel="noopener noreferrer" href="http://www.guoanhong.com/papers/SUI19-Minuet.pdf" >Minuet: Multimodal Interaction with an Internet of Things</a>
   
-  Relavant works:
-  1. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/5307895" >Recent trends and advances in UWB positioning</a>
-  2. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/5288724?casa_token=NWJVDTZtLEYAAAAA:u0bZ2adB4zLXbtTXZWLx7NVZWMv8oI2souPsLrFrAH5uT4O-Qa4OzrW8iNKWowLi33HD9fi_AA" >Tightly coupled UWB/IMU pose estimation</a>
-  3. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/8704208" >Hand Pointing Gestures Based Digital Menu Board Implementation Using IR-UWB Transceivers</a>
-  4. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/8115911?casa_token=JJNFts0cGBsAAAAA:Wt09R6HAsEaV3kjVUAhvm-8qDWjbJTaBcqoz7b9e3nJdBDOl-CySC6k9LJKyChOVPp184LXrcQ" >An integrated IMU and UWB sensor based indoor positioning system</a>
-  5. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/4653423?casa_token=PNeCFB14aPUAAAAA:BhmnRVjNvpyNLEirOgUv8XrWC5PPzRbsBRE3S9wXVQ-uF6edXcL7Z24edvbWMPKsv41gAYBS4w" >Hybrid localization using UWB and inertial sensors</a>
+### References
+  1. <a target="_blank" rel="noopener noreferrer" href="https://decaforum.decawave.com/t/can-i-use-only-2-dwm1001-dev-and-see-their-relative-distance/7788" >Decaewave Q&A (1)</a>
+  2. <a target="_blank" rel="noopener noreferrer" href="https://decaforum.decawave.com/t/uart-communication-with-arduino/5664" >Decaewave Q&A (2)</a>
+  3. <a target="_blank" rel="noopener noreferrer" href="https://www.decawave.com/product/mdek1001-deployment-kit/" >MDEK1001 Configuration</a>
+  4. <a target="_blank" rel="noopener noreferrer" href="https://nitinjsanket.github.io/tutorials/attitudeest/madgwick" >Mathematical Model of an IMU</a>
+  5. <a target="_blank" rel="noopener noreferrer" href="https://axodyne.com/2020/06/arduino-nano-33-ble-ahrs/" >Arduino Nano 33 BLE – AHRS</a>
+  6. <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/figure/Average-roll-pitch-and-yaw-angles_fig2_262055313" >Identifying Active Travel Behaviors in Challenging Environments Using GPS, Accelerometers, and Machine Learning Algorithms</a>
+  7. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/5307895" >Recent trends and advances in UWB positioning</a>
+  8. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/5288724?casa_token=NWJVDTZtLEYAAAAA:u0bZ2adB4zLXbtTXZWLx7NVZWMv8oI2souPsLrFrAH5uT4O-Qa4OzrW8iNKWowLi33HD9fi_AA" >Tightly coupled UWB/IMU pose estimation</a>
+  9. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/8704208" >Hand Pointing Gestures Based Digital Menu Board Implementation Using IR-UWB Transceivers</a>
+  10. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/8115911?casa_token=JJNFts0cGBsAAAAA:Wt09R6HAsEaV3kjVUAhvm-8qDWjbJTaBcqoz7b9e3nJdBDOl-CySC6k9LJKyChOVPp184LXrcQ" >An integrated IMU and UWB sensor based indoor positioning system</a>
+  11. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/abstract/document/4653423?casa_token=PNeCFB14aPUAAAAA:BhmnRVjNvpyNLEirOgUv8XrWC5PPzRbsBRE3S9wXVQ-uF6edXcL7Z24edvbWMPKsv41gAYBS4w" >Hybrid localization using UWB and inertial sensors</a>
 
 --------------------------------------------------------------------------------------------
 ### Implementation of project
