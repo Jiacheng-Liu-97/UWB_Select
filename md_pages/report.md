@@ -33,9 +33,9 @@ Contribute: Jiacheng Liu, Yibo Wang
 
    **Data Processing Diagram:**
 
-    <p align="center">
-      <img src="pics/part1_data_processing.png" alt="part1_data_processing" width="100%" height="100%" />
-    </p>
+  <p align="center">
+    <img src="pics/part1_data_processing.png" alt="part1_data_processing" width="100%" height="100%" />
+  </p>
 
 #### Technical Approach:
   1. **Configure the Anchors and Tag in terminal** <br />
