@@ -72,7 +72,7 @@ Contribute: Jiacheng Liu, Yibo Wang
 
 
       <p align="center">
-        <img src="pics/controller.png" alt="the controller" width="100%" height="100%" />
+        <img src="pics/controller.jpg" alt="the controller" width="100%" height="100%" />
       </p>
 
 --------------------------------------------------------------------------------------------
