@@ -91,10 +91,15 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
   1. We can only use two anchors at present due to potential serial communication problems between Tag and Arduino. This will make us temporarily not using the z-axis for calculations.
   2. The firmware of the UWB module itself has not been modified. After the modification, there will be more possibilities.
 
+**Future Dorection**
+  1. Embedded IMU data and UWB data increase position and gesture detection accuracy
+  2. Introduce voice control
+  3. Introduce 
+
 --------------------------------------------------------------------------------------------
 ### System elaboration
   Please click and view:
-  [System elaboration](md_pages/system_elaboration.md)
+  [System Elaboration](md_pages/system_elaboration.md)
 
 --------------------------------------------------------------------------------------------
 ### Contributions of each team member

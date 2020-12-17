@@ -24,7 +24,7 @@ Contribute: Jiacheng Liu, Yibo Wang
    1. Doing the configuration of Tag and Anchors using Terminal/Andriod app.
    2. Using terminal with specific commands to observe the data format.
    3. Coding on Arduino to obtain and process data, and then use the processed data to do some calculations to achieve our selection function.
-   4. Using a breadboard to build a simple circuit to visualize the results.
+   4. Using a breadboard to build a simple circuit to visualize the results.<br />
    **Schematic diagram:**
    <p align="center">
       <img src="pics/serial_communication.png" alt="Serial Communication" width="100%" height="100%" />
