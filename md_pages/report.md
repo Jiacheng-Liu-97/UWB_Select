@@ -10,7 +10,7 @@ Contribute: Jiacheng Liu, Yibo Wang
  1. **Decawave DWM 1001 units:** We use the Decawave MDEK1001 Development Kit as our positioning tool. The Kit includes 12 RTLS units (DWM1001)  and we use several of the DWM1001 to be anchors and use 1 RTLS unit to be a tag. This system will measure the distance of all anchors to this specific tag.
  2. **J-Link driver & Terminal in Mac OS/Android App:** The J-Link is a driver to make DWM1001 can be configured on the computer. Terminal/Android App is the interface to configure the basic information of tag and anchors. The basic information includes the initial position of anchors, UWB states, and update rate.
  3. **Arduino Nano 33 BLE sense:** We use Arduino to communicate with DWM1001 through the serial port to obtain the real-time position information of the anchors. Then we use Arduino to perform calculations to determine our choice in order to turn on or off the corresponding LEDs.
- 4. **Breadboard & LEDs:** the function of the breadboard and LED is to visualize the results of our data analysis and calculations.
+ 4. **LEDs:** the function of the breadboard and LED is to visualize the results of our data analysis and calculations.
 
    <p align="center">
     <img src="pics/system_overview.png" alt="System_Overview" width="100%" height="100%" />
@@ -69,6 +69,11 @@ Contribute: Jiacheng Liu, Yibo Wang
       If the Tag is moving from Anchor0 to Anchor1, the left LED will turn on, and vice versa. The two LEDs on the left and right reflect the moving direction of the tag, which is our selection.
       
       The connection between Tag, Arduino, and LEDs. When we want to choose a direction, we only need to move the entire connected device to the left or right, the LED light will turn on or off according to the direction of movement.
+
+
+      <p align="center">
+        <img src="pics/controller.png" alt="the controller" width="100%" height="100%" />
+      </p>
 
 --------------------------------------------------------------------------------------------
 ### Part II:  Using a Built-in IMU Sensor of Arduino to Do the Gesture Control.
