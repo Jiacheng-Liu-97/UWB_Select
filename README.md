@@ -91,15 +91,14 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
   1. We can only use two anchors at present due to potential serial communication problems between Tag and Arduino. This will make us temporarily not using the z-axis for calculations.
   2. The firmware of the UWB module itself has not been modified. After the modification, there will be more possibilities.
   3. Limited gesture control options: due to time constraints
-  4. Lack of voice control
 
 
-**Future Dorection**
-  1. Instdead of using evaluation kit, use the UWB IC on a PCB design that targeting this system can:
+**Future Direction**
+  1. Instead of using evaluation kit, use the UWB IC on a PCB design that targeting this system can:
        1. solve the communication issue
-       2. more optimization option avaliable
+       2. more optimization option available
        3. more stable performance
-  2. Scaling up the system and implement in more real-life enviornment to make sure the high robustness
+  2. Scaling up the system and implement in more real-life environment  to make sure the high robustness
   3. Embedded IMU data and UWB data increase position and gesture detection accuracy
   4. Introduce voice control
 
