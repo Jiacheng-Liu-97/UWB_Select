@@ -128,9 +128,9 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
   1. [Final_Report](md_pages/report.md)
   2. PPT: 
   3. Demo:
-     1. UWB pointing selection [https://youtu.be/nipZlUt71tk](https://youtu.be/nipZlUt71tk)
+     1. UWB pointing selection <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/nipZlUt71tk" >https://youtu.be/nipZlUt71tk</a>
      2. IMU data acquiring and fusion
-        1. Data fusion results [https://youtu.be/96_kEfkgSSQ](https://youtu.be/96_kEfkgSSQ)
-        2. IMU controls the brightness of LEDs [https://youtu.be/eY7SCoWoKno](https://youtu.be/eY7SCoWoKno)
-     3. Integration: Selection + Control [https://youtu.be/pOg3HAAUCMk](https://youtu.be/pOg3HAAUCMk)
+        1. Data fusion results <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/96_kEfkgSSQ" >https://youtu.be/96_kEfkgSSQ</a>
+        2. IMU controls the brightness of LEDs <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eY7SCoWoKno" >https://youtu.be/eY7SCoWoKno</a>
+     3. Integration: Selection + Control <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/pOg3HAAUCMk" >https://youtu.be/pOg3HAAUCMk</a>
   4. Link of Final Presentation
