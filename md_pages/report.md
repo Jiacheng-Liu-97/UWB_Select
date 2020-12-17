@@ -75,10 +75,10 @@ Contribute: Jiacheng Liu, Yibo Wang
       If the Tag is moving from Anchor0 to Anchor1, the left LED will turn on, and vice versa. The two LEDs on the left and right reflect the moving direction of the tag, which is our selection.
       
       The connection between Tag, Arduino, and LEDs. When we want to choose a direction, we only need to move the entire connected device to the left or right, the LED light will turn on or off according to the direction of movement.
-
-    <p align="center">
-      <img src="pics/controller.png" alt="the controller" width="60%" height=60%" />
-    </p>
+      
+  <p align="center">
+    <img src="pics/controller.png" alt="the controller" width="60%" height="60%" />
+  </p>
 
 --------------------------------------------------------------------------------------------
 ### Part II:  Using a Built-in IMU Sensor of Arduino to Do the Gesture Control.
