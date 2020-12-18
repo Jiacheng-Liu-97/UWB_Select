@@ -126,7 +126,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
 --------------------------------------------------------------------------------------------
 ### Final Report, PPT, Demo
   1. [Final_Report](md_pages/report.md)
-  2. PPT: 
+  2. PPT: [Final Presentation (pdf)](UWB_Select_Final_presentation.pdf)
   3. Demo:
      1. UWB pointing selection <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/nipZlUt71tk" >https://youtu.be/nipZlUt71tk</a>
      2. IMU data acquiring and fusion
