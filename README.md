@@ -103,7 +103,7 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
   4. Introduce voice control
 
 --------------------------------------------------------------------------------------------
-### System elaboration
+### System Elaboration
   Please click and view:
   [System Elaboration](md_pages/system_elaboration.md)
 
@@ -133,4 +133,4 @@ UCLA M202A Project Implementing UWB wireless indoor position: select &amp; contr
         1. Data fusion results <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/96_kEfkgSSQ" >https://youtu.be/96_kEfkgSSQ</a>
         2. IMU controls the brightness of LEDs <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eY7SCoWoKno" >https://youtu.be/eY7SCoWoKno</a>
      3. Integration: Selection + Control <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/pOg3HAAUCMk" >https://youtu.be/pOg3HAAUCMk</a>
-  4. Link of Final Presentation
+  4. Link of Final Presentation (Youtube Video)
